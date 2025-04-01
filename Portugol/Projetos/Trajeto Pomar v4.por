@@ -32,7 +32,7 @@ programa {
   
   escreva("Frutas       Qnts    Valor")
   se (qntMaca == 0) {
-    escreva("\n|Maça:        --")
+    escreva("\n|Maça:        --     |R$ --")
   }
   senao {
   se (qntMaca < 10) {
@@ -45,7 +45,7 @@ programa {
   
 
   se (qntLaranja == 0) {
-    escreva("\n|Laranja:     --")
+    escreva("\n|Laranja:     --     |R$ --")
   }
   senao {
   se (qntLaranja < 10) {
@@ -58,7 +58,7 @@ programa {
   
 
   se (qntBergamota == 0) {
-    escreva("\n|Bergamota:   --")
+    escreva("\n|Bergamota:   --     |R$ --")
   }
   senao {
   se (qntBergamota < 10) {
@@ -71,7 +71,7 @@ programa {
   
 
   se (qntBanana == 0) {
-    escreva("\n|Banana:      --")
+    escreva("\n|Banana:      --     |R$ --")
   }
   senao {
   se (qntBanana < 10) {
@@ -84,7 +84,7 @@ programa {
   
 
   se (qntPera == 0) {
-    escreva("\n|Pera:        --")
+    escreva("\n|Pera:        --     |R$ --")
   }
   senao {
   se (qntPera < 10) {
@@ -97,7 +97,6 @@ programa {
 
   escreva("\n---------------------")
   escreva("\nTotal                |R$ " + valorTtl)
-  escreva("\n\nObrigado, volte sempre")
 
   }
 }
