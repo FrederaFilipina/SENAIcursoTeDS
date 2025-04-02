@@ -8,16 +8,28 @@ programa {
   escreva("Larg:    ") leia(larg)
   escreva("Compr:   ") leia(comp)
 
+
   limpa()
-  se (alt != larg e alt != comp e larg != comp) {
-    escreva("Triângulo Escaleno")
+  // se (alt != larg e alt != comp e larg != comp) {
+  //   escreva("Triângulo Escaleno")
+  // }
+  // se (alt == larg e alt == comp e larg == comp) {
+  //   escreva("Triângulo Equilátero")
+  // }
+  // se (alt == larg e alt != comp ou alt == comp e alt != larg  ou larg == comp e larg != alt) {
+  //   escreva("Triângulo Isósceles")
+  // }
+
+  se(alt == larg e larg == comp){
+    escreva("Equilátero")
+  } senao {
+    se (alt != larg e alt != comp e larg != comp) {
+      escreva("Escaleno")
+    } senao {
+      escreva("Isósceles")
+    }
   }
-  se (alt == larg e alt == comp e larg == comp) {
-    escreva("Triângulo Equilátero")
-  }
-  se (alt == larg e alt != comp ou alt == comp e alt != larg  ou larg == comp e larg != alt) {
-    escreva("Triângulo Isósceles")
-  }
+
   
   }
   }
