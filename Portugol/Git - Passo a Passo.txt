@@ -1,0 +1,7 @@
+1) CMD
+2) git clone [endereço copiado]
+3) git config user.name "nome de usuário"
+4) git config user.email "e-mail usado"
+5) git add .
+6) git commit -m "Descrição do que você está subindo para o Git"
+7) git push
