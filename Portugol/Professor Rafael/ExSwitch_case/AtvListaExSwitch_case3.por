@@ -1,40 +1,5 @@
 /*Fim do mês não é fácil pra ninguém: Crie um programa que leia o número do mês e diga quantos dias ele tem*/
-
-programa {
-  funcao inicio() {
-
-  inteiro mesAno, jan
-
-
-  escreva("Digite o número de um mês qualquer: ") leia(mesAno)
-
- 
-  se (mesAno == 2){
-    escreva ("O mês de " + mesAno + " tem 28 dias")
-  } senao {
-    se (mesAno == 07) {
-      escreva ("O mês de " + mesAno + " tem 31 dias")
-    } senao {
-      se (mesAno <= 6 e (mesAno % 2) == 1) {
-        escreva("O mês de " + mesAno + " tem 31 dias")
-      } senao {
-        se (mesAno <= 6 e (mesAno % 2) != 1) {
-          escreva("O mês de " + mesAno + " tem 30 dias")
-        } senao {
-          se ((6 <= mesAno e (mesAno % 2) != 1)){
-            escreva("O mês de " + mesAno + " tem 31 dias")
-          } senao{
-            se (6 <= mesAno e (mesAno % 2) == 1) {
-              escreva("O mês de " + mesAno + " tem 30 dias")
-            }
-          }
-
-        }
-      }
-    }
-  }
-
-  // 31 Jan 01 - é Ímpar
+ // 31 Jan 01 - é Ímpar
   // 28 Fev 02 - faz um se (mesAno == 2) 
   // 31 Mar 03 - é Ímpar
   // 30 Abr 04 - é Par
@@ -49,6 +14,40 @@ programa {
   // 31 Out 10 - é Par
   // 30 Nov 11 - é Ímpar
   // 31 Dez 12 - é Par
+
+programa {
+  funcao inicio() {
+
+  inteiro mes, x
+
+  escreva("Digite o número de um mês: ") leia(mes)
+
+
+  se (mes == 2) {
+    escreva ("\nO mês " + mes + " tem 28 dias")
+  } senao {
+
+    se (mes == 07) {
+      escreva ("\nO mês " + mes + " tem 31 dias")
+    } senao {
+      se (mes <= 6 e (mes % 2) == 1) {
+        escreva("\nO mês " + mes + " tem 31 dias")
+      } senao {
+        se (mes <= 6 e (mes % 2) != 1) {
+          escreva("\nO mês " + mes + " tem 30 dias")
+        } senao {
+          se ((6 < mes e (mes % 2) != 1)){
+            escreva("\nO mês " + mes + " tem 31 dias")
+          } senao{
+            se (6 < mes e (mes % 2) == 1) {
+              escreva("\nO mês " + mes + " tem 30 dias")
+            }
+          }
+
+        }
+      }
+    }
+  }
     
   }
 }
