@@ -1,4 +1,5 @@
 /*Fim do mês não é fácil pra ninguém: Crie um programa que leia o número do mês e diga quantos dias ele tem*/
+
  // 31 Jan 01 - é Ímpar
   // 28 Fev 02 - faz um se (mesAno == 2) 
   // 31 Mar 03 - é Ímpar
@@ -26,7 +27,6 @@ programa {
   se (mes == 2) {
     escreva ("\nO mês " + mes + " tem 28 dias")
   } senao {
-
     se (mes == 07) {
       escreva ("\nO mês " + mes + " tem 31 dias")
     } senao {
