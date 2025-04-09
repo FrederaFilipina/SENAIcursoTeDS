@@ -1,4 +1,5 @@
 /*2. Dragões e Condições
+
 História: Um guerreiro encontrou um dragão!
 Se ele tiver uma espada mágica e mais de 18
 anos, ele pode lutar. Se não, deve fugir.*/
