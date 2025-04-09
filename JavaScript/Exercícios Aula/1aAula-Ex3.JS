@@ -3,4 +3,6 @@ let num2 = Number(prompt("2ª Nota: "))
 let num3 = Number(prompt("3ª Nota: "))
 let num4 = Number(prompt("4ª Nota: "))
 
-console.log("A média das notas é: ", (num1 + num2 + num3 + num4)/4)
+let media = (num1 + num2 + num3 + num4) / 4
+
+console.log("A média das notas é: ", media)
