@@ -1,25 +1,25 @@
-let = num1 = Number (prompt ("Digite um número"))
-let = num2 = Number (prompt ("Digite um número"))
+let = num1 = Number(prompt("Digite um número"))
+let = num2 = Number(prompt("Digite um número"))
 let = oper = (prompt("Qual operação deseja fazer? \n+ , -, x, /"))
 let res
 
-if (oper === "+"){
+if (oper === "+") {
     res = num1 + num2
     //console.log(typeof res)
     console.log(res)
 } else {
-    if(oper === "-"){
+    if (oper === "-") {
         res = num1 - num2
         console.log(res)
     } else {
-        if(oper === "x"){
+        if (oper === "x") {
             res = num1 * num2
             console.log(res)
         } else {
-            if(oper === "/"){
+            if (oper === "/") {
                 res = num1 / num2
                 console.log(res)
-            } else{
+            } else {
                 console.log("Operação não encontrada")
             }
         }
