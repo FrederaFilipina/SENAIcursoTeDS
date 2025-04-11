@@ -13,7 +13,7 @@ fomePizza = prompt("João você está com fome? \n(sim/não)")
 granaR$ = prompt("João, você tem grana para pagar a pizza? \n(sim/não)")
 
 if (diaSemana === "sim" || fomePizza === "sim" && granaR$ === "sim"){
-    console.log("SIM!!! PIZAAAAAAAA")
+    console.log("Vamos pedir pizza!")
 } else {
-    console.log("Não!!!")
+    console.log("Hoje não é dia de pizza.")
 }
