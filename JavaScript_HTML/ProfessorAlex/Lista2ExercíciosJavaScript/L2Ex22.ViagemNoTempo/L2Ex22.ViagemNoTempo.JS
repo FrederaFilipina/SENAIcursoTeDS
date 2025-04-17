@@ -6,9 +6,10 @@ Se for maior, vai para o futuro.*/
 
 let anoAtual = Number (prompt("Que ano é esse?"))
 let anoVnT = 2020
+let anoAgora = new Date ()
 
 if(anoAtual < anoVnT){
-    console.log("Sim")
+    console.log("Sim", anoAgora.getFullYear())
 } else {
-    console.log("Não")
+    console.log("Não", Date)
 }
