@@ -8,7 +8,7 @@ Se for maior, vai para o futuro.*/
 function rodarCod() {
     let rodarCod = confirm("Sim, vamos lá!")
     
-    if (rodarCod = true) {
+    if (rodarCod === true) {
         let anoAtual = Number(prompt("Que ano é esse?"))
         let anoVnT = 2020
 
@@ -22,8 +22,6 @@ function rodarCod() {
     }
 
 }
-
-let resposta = document 
 
 
 
