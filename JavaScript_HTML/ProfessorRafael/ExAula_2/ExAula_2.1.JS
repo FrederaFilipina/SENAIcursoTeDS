@@ -1,5 +1,4 @@
 
-
 let n1, n2, sinal, result
 
 n1 = Number (prompt(`1º Número:`))
