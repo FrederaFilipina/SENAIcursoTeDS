@@ -1,25 +1,14 @@
 
-function rodarCod() {
-    let rodarCod = confirm("Você trouxe algum briquedo?")
-    console.log(rodarCod)
 
-    if (rodarCod === true) {
-        let brinquedo = Number(prompt("Quantos brinquedos você trouxe?"))
+let n1, n2, sinal, result
 
-        if (0 < brinquedo && brinquedo <= 3) {
-            alert(`Você ganhou ${brinquedo} modeas!`)
-        }
+n1 = Number (prompt(`1º Número:`))
+console.log(n1)
+sinal = Number (prompt("Operador: "))
+console.log(sinal)
+n2 = Number (prompt(`2º Número:`))
+console.log(n2)
 
-        else if (3 < brinquedo) {
-            alert(`Muito obrigado pelos ${brinquedo} brinquedos,
-mas estamos limitando ao máximo de
-03 modeas!`)
-        } else {
-            alert(`M E N T I R O S O!!!
-Vaza daqui, seu sem coração!`)
-        }
-        
-    } else {
-        alert("VAI EMBORA DAQUI!!!!")
-    }
-}
+result = n1 + sinal + n2
+
+alert(`Resultado:  ${result}`)

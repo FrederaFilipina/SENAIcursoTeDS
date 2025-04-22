@@ -4,7 +4,7 @@ function somar(){
 
     n1 = Number (prompt(`1º Número:`))
     n2 = Number (prompt(`2º Número:`))
-    result= n1 +n2
+    result= n1 + n2
 
     alert(`Resultado:  ${result}`)
 }
