@@ -8,7 +8,7 @@ let nota3 = Number(prompt(`Digite o valor da nota 3:`))
 
 
 function mediaNota(){
-    let mediaNota = nota1 + nota2 +nota3
+    let mediaNota = (nota1 + nota2 + nota3)/3
     alert(`A média das notas ${nota1}, ${nota2} e ${nota3}
 é: ${mediaNota}`)
 }
