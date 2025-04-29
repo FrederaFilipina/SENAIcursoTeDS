@@ -13,6 +13,7 @@ function rodPro() {
 
 Você sabe de qual Casa do Zodiaco é a sua Costelação?
 (sim / não)`)
+//Verificando qual caminho o código seguira
 
     
     if (signoVrf == `sim`) {
@@ -323,5 +324,4 @@ ${msgSigno}`)
             casaSigno = 12
         }
     }
-   
 }
