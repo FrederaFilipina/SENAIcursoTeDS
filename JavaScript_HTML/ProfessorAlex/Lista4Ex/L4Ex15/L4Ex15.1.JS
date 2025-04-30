@@ -7,14 +7,29 @@ let contador = 1
 
 function rodPro() {
     let numDig = Number(prompt(`Digite um valor entre ${min} e ${max}`))
-    console.log(`contador1: ${contador}`) 
+    console.log(`contador1: ${contador}`)
 
-    while(numAle != numDig){        
-        numDig = Number(prompt(`Digite um valor entre ${min} e ${max}`))
-        contador++  
-        console.log(`contador2: ${contador}`)
+    if (numAle == numDig) {
+        alert(`TU É MUITO BOM!!!
+ACERTOU NA PRIMEIRA`)
+
     }
+    else if (numAle != numDig) {
 
-    alert(`fim de cód`)
+        while (numAle != numDig && contador != 5) {
+            numDig = Number(prompt(`Ok.... vou ser legal com você
+e vou te dar mais ${5 - contador} tentativas`))
+            contador++
+            console.log(`contador2: ${contador}`)
+        }
+
+        if (numAle == numDig) {
+            alert(`Opa.... você acertou!`)
+        } else {
+            alert(`Game Over`)
+        }
+        contador = 1
+
+    }
 
 }
