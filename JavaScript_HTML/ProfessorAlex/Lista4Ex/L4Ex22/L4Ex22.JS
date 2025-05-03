@@ -18,48 +18,36 @@ Digite apenas a letra da resposta:`
     c) Equador               d) Peru
 
 Digite apenas a letra da resposta:`
-    let p4 = 0
     let p
 
-    let cC = 1
     let num = 1
     let alt
     let resp = []
-    
-    while (cC <= 3) {       
-        while (cC == num) {
-            p = p1
+
+   
+        while (num <= 3) {
+            if (num == 1) {
+                p = p1
+            }
+            else if (num == 2) {
+                p = p2
+            }
+            else if (num == 3) {
+                p = p3
+            }
+
             alt = prompt(p)
+            if (p == p1 && alt == `c` || p == p2 && alt == `a` || p == p3 && alt == `d`) {
+                alt = 1
+            } else {
+                alt = 0
+            }
             resp.push(alt)
-            p1 = p2
-            p2 = p3
-            p3 = p4
+            
             num++
         }
-        cC++
-    }
-
-    let r1
-    if (resp[0] == `c`) {
-        r1 = 1
-    } else {
-        r1 = 0
-    }
-
-    let r2
-    if (resp[1] == `a`) {
-        r2 = 1
-    } else {
-        r2 = 0
-    }
-
-    let r3
-    if (resp[2] == `d`) {
-        r3 = 1
-    } else {
-        r3 = 0
-    }
-
-    let ttl = r1 + r2 +r3
+        
+      
+    let ttl = resp[0] + resp[1] + resp[2]
     alert(`Você acertou ${ttl} de 03`)
 }
