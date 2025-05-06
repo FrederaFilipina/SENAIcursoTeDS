@@ -1,7 +1,7 @@
 function rodPro() {
-    let cC = 0
-    let numV = 30
-    let numDv = 3
+    let cC = 1
+    let numV = 20
+    let numDv = 5
 
     
     while(cC <= numV){
@@ -9,9 +9,9 @@ function rodPro() {
         let resp = cC / numDv        
 
         if(Number.isInteger(resp)){
-            alert(`${cC} é um número divisivel por ${numDv},
-pois o quociente da sua divisão
-que é: ${resp} é um número inteiro`)
+            alert(`${cC} - Buzz`)
+        } else{
+            alert(cC)
         }
 
         cC++
