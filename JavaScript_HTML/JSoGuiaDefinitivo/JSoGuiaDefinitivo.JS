@@ -11,3 +11,10 @@ if (texto == num){
 if(texto === num){
     console.log(`2 são iguais`)
 }
+
+
+// Vai ser para comentários iniciais
+//!>     Vai ser para comentários de alertas
+//?>     Vai ser para comentários de melhorias
+//>>     Vai ser para comentários de ajustes
+//*>     Vai ser para comentários de aleatórios
