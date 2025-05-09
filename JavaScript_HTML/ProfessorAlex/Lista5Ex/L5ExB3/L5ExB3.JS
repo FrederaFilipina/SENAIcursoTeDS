@@ -1,18 +1,19 @@
 
-let cCi = 1
-let cCf = 50
-let numPar = 0
+function rodPro() {
 
-function rodPro(){
-    while(cCi <= cCf){
+    let cCf = 50
+    let numPar = 0
+
+    for (let cCi = 1; cCi <= cCf; cCi++) {
         let resto = cCi % 2
-        if(resto == 0){
+
+        if (resto == 0) {
             console.log(cCi)
             numPar++
             alert(`${numPar}`)
         }
-        cCi++
     }
+    numPar = 0
     alert(`FIM! Obrigado ^^`)
 
 }
